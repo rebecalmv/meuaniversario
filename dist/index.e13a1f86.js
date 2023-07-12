@@ -1,0 +1,2 @@
+AOS.init();const e=new Date("Jun 12 2024 18:00:00"),o=e.getTime(),n=setInterval(function(){let e=new Date,t=e.getTime(),l=o-t,a=Math.floor(l/864e5),r=Math.floor(l%864e5/36e5),c=Math.floor(l%36e5/6e4),d=Math.floor(l%6e4/1e3);console.log(a),console.log(r),console.log(c),console.log(d),document.getElementById("contador").innerHTML=`${a}d ${r}h ${c}m ${d}s`,l<0&&(clearInterval(n),document.getElementById("contador").innerHTML="Evento expirado")},1e3);
+//# sourceMappingURL=index.e13a1f86.js.map
